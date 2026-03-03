@@ -39,5 +39,5 @@ jobs:
       
       # Шаг 5: Выполняем модульное тестирование  
       - name: Run unit tests
-        run: dotnet test --configuration Release --verbosity normal
+        run: dotnet test --configuration Release
 
